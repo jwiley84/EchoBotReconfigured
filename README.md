@@ -1,19 +1,8 @@
-# Echo Bot template
-This template demonstrates a simple echo bot with state with ASP.Net Core 2. The bot maintains a simple counter that increases with each message from the user.
+# Echo Bot Reconfigured
+This template demonstrates a simple echo bot with the .bot file dependency removed, using ASP.Net Core 2. The bot maintains a simple counter that increases with each message from the user.
 
 # Prerequisite to run this bot locally
-- Download the bot code from the Build blade in the Azure Portal
-- Update the `appsettings.json` file in the root of the bot project with the botFilePath and botFileSecret 
-- You can find the botFilePath and botFileSecret in the Azure App Service application settings.
-
-Your appsettings.json file should look like this
-```bash
-{
-    "botFilePath": "<copy value from App settings>",
-    "botFileSecret": "<copy value from App settings>"
-}
-```
-
+- Clone this repo
 
 ## Run in Visual Studio
 - Open the .sln file with Visual Studio.
